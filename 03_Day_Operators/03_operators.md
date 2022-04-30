@@ -9,7 +9,7 @@
 
 <sub>Author:
 <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
-<small> Second Edition: July, 2021</small>
+<small> Roadmap-to-python</small>
 </sub>
 </div>
 
