@@ -1,15 +1,10 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 29 - Building an API </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small>Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+<small></small>
 </sub>
 
 </div>
@@ -141,7 +136,7 @@ import pymongo
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://harsha:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -211,7 +206,7 @@ import pymongo
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://harsha:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -264,7 +259,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://harsha:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -322,7 +317,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://harsha:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -403,7 +398,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://harsha:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
