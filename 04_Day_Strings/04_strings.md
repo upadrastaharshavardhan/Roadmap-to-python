@@ -76,10 +76,10 @@ We can connect strings together. Merging or connecting strings is called concate
 
 ```py
 first_name = 'Harsha'
-last_name = 'Yetayeh'
+last_name = 'vardhan'
 space = ' '
 full_name = first_name  +  space + last_name
-print(full_name) # Harsha Yetayeh
+print(full_name) # Harsha vardhan
 # Checking the length of a string using len() built-in function
 print(len(first_name))  # 8
 print(len(last_name))   # 7
@@ -136,7 +136,7 @@ The "%" operator is used to format a set of variables enclosed in a "tuple" (a f
 ```py
 # Strings only
 first_name = 'Harsha'
-last_name = 'Yetayeh'
+last_name = 'vardhan'
 language = 'Python'
 formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formated_string)
@@ -159,7 +159,7 @@ This formatting is introduced in Python version 3.
 ```py
 
 first_name = 'Harsha'
-last_name = 'Yetayeh'
+last_name = 'vardhan'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formated_string)
@@ -345,12 +345,12 @@ print(challenge.rfind('th')) # 1
 
 ```py
 first_name = 'Harsha'
-last_name = 'Yetayeh'
+last_name = 'vardhan'
 age = 250
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
-print(sentence) # I am Harsha Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+print(sentence) # I am Harsha vardhan. I am 250 years old. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14
@@ -600,4 +600,3 @@ The area of a circle with radius 10 is 314 meters square.
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 3](../03_Day_Operators/03_operators.md) | [Day 5 >>](../05_Day_Lists/05_lists.md)
-
