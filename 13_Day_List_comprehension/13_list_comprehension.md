@@ -1,15 +1,10 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 13 - List Comprehension</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+ 
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+<small> </small>
 </sub>
 
 </div>
@@ -198,9 +193,9 @@ print(two_power_of_five)  # 32
    ```
 6. Change the following list of lists to a list of concatenated strings:
    ```py
-   names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
+   names = [[('Harsha', 'vardhan')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
    output
-   ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
+   ['Harsha vardhan', 'David Smith', 'Donald Trump', 'Bill Gates']
    ```
 7. Write a lambda function which can solve a slope or y-intercept of linear functions.
 
