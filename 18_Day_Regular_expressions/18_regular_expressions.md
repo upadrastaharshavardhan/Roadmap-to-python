@@ -4,7 +4,7 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha Vardhan</a><br>
-  <small> First Edition: Nov 22 - Dec 22, 2019</small>
+  <small> </small>
   </sub>
 </div>
 </div>
