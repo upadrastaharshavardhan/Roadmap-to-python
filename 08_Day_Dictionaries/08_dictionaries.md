@@ -1,15 +1,10 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 8 - Dictionaries</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+<small>Roadmap-to-python</small>
 </sub>
 
 </div>
@@ -56,8 +51,8 @@ dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -85,8 +80,8 @@ print(len(dct)) # 4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -115,8 +110,8 @@ print(dct['key4']) # value4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -126,7 +121,7 @@ person = {
         'zipcode':'02210'
     }
     }
-print(person['first_name']) # Asabeneh
+print(person['first_name']) # Harsha
 print(person['country'])    # Finland
 print(person['skills'])     # ['JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person['skills'][0])  # JavaScript
@@ -137,8 +132,8 @@ print(person['city'])       # Error
 Accessing an item by key name raises an error if the key does not exist. To avoid this error first we have to check if a key exist or we can use the _get_ method. The get method returns None, which is a NoneType object data type, if the key does not exist.
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -148,7 +143,7 @@ person = {
         'zipcode':'02210'
     }
     }
-print(person.get('first_name')) # Asabeneh
+print(person.get('first_name')) # Harsha
 print(person.get('country'))    # Finland
 print(person.get('skills')) #['HTML','CSS','JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person.get('city'))   # None
@@ -168,8 +163,8 @@ dct['key5'] = 'value5'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -198,8 +193,8 @@ dct['key1'] = 'value-one'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -243,8 +238,8 @@ del dct['key2'] # removes key2 item
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Harsha',
+    'last_name':'vardhan',
     'age':250,
     'country':'Finland',
     'is_marred':True,
