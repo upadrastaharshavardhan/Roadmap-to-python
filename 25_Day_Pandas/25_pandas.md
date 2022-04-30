@@ -1,15 +1,10 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 25 - Pandas </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
+  <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+  <small></small>
   </sub>
 
 </div>
@@ -158,7 +153,7 @@ print(fruits)
 ### Creating Pandas Series from a Dictionary
 
 ```python
-dct = {'name':'Asabeneh','country':'Finland','city':'Helsinki'}
+dct = {'name':'vardhan','country':'Finland','city':'Helsinki'}
 ```
 
 ```python
@@ -167,7 +162,7 @@ print(s)
 ```
 
 ```sh
-    name       Asabeneh
+    name       vardhan
     country     Finland
     city       Helsinki
     dtype: object
@@ -216,7 +211,7 @@ Pandas data frames can be created in different ways.
 
 ```python
 data = [
-    ['Asabeneh', 'Finland', 'Helsink'], 
+    ['vardhan', 'Finland', 'Helsink'], 
     ['David', 'UK', 'London'],
     ['John', 'Sweden', 'Stockholm']
 ]
@@ -236,7 +231,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsink</td>
     </tr>
@@ -258,7 +253,7 @@ print(df)
 ### Creating DataFrame Using Dictionary
 
 ```python
-data = {'Name': ['Asabeneh', 'David', 'John'], 'Country':[
+data = {'Name': ['vardhan', 'David', 'John'], 'Country':[
     'Finland', 'UK', 'Sweden'], 'City': ['Helsiki', 'London', 'Stockholm']}
 df = pd.DataFrame(data)
 print(df)
@@ -276,7 +271,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsiki</td>
     </tr>
@@ -299,7 +294,7 @@ print(df)
 
 ```python
 data = [
-    {'Name': 'Asabeneh', 'Country': 'Finland', 'City': 'Helsinki'},
+    {'Name': 'vardhan', 'Country': 'Finland', 'City': 'Helsinki'},
     {'Name': 'David', 'Country': 'UK', 'City': 'London'},
     {'Name': 'John', 'Country': 'Sweden', 'City': 'Stockholm'}]
 df = pd.DataFrame(data)
@@ -318,7 +313,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
     </tr>
@@ -342,7 +337,7 @@ print(df)
 To download the CSV file, what is needed in this example, console/command line is enough:
 
 ```sh
-curl -O https://raw.githubusercontent.com/Asabeneh/30-Days-Of-Python/master/data/weight-height.csv
+curl -O https://raw.githubusercontent.com/vardhan/30-Days-Of-Python/master/data/weight-height.csv
 ```
 
 Put the downloaded file in your working directory.
@@ -634,7 +629,7 @@ As always, first we import the necessary packages. Now, lets import pandas and n
 import pandas as pd
 import numpy as np
 data = [
-    {"Name": "Asabeneh", "Country":"Finland","City":"Helsinki"},
+    {"Name": "vardhan", "Country":"Finland","City":"Helsinki"},
     {"Name": "David", "Country":"UK","City":"London"},
     {"Name": "John", "Country":"Sweden","City":"Stockholm"}]
 df = pd.DataFrame(data)
@@ -653,7 +648,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
     </tr>
@@ -699,7 +694,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -743,7 +738,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -793,7 +788,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -854,7 +849,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -906,7 +901,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -961,7 +956,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1065,7 +1060,7 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1139,7 +1134,7 @@ print(df[df['Ages'] > 120])
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>vardhan</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
