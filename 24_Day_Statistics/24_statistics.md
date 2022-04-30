@@ -55,7 +55,7 @@ vardhan@vardhan:~/Desktop/30DaysOfPython$ pip install numpy
 
 ## Importing NumPy
 
-Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/vardhan/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
+Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/upadrastaharshavardhan/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
 
 ```py
     # How to import numpy
