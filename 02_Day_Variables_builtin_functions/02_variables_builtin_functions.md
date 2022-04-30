@@ -1,15 +1,17 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/HarshaUpadrasta">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/harsha?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+<small>
+Roadmap-to-python
+</small>
 </sub>
 
 </div>
@@ -234,7 +236,7 @@ print('num_float', float(num_str))  # 10.6
 
 # str to list
 first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+print(first_name)               # 'harsha'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
