@@ -1,15 +1,10 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 12 - Modules </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+<small> </small>
 </sub>
 
 </div>
@@ -65,7 +60,7 @@ To import the file we use the _import_ keyword and the name of the file only.
 ```py
 # main.py file
 import mymodule
-print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')) # Asabeneh Yetayeh
+print(mymodule.generate_full_name('Asabeneh', 'vardhan')) # Asabeneh vardhan
 ```
 
 ### Import Functions from a Module
@@ -75,7 +70,7 @@ We can have many functions in a file and we can import all the functions differe
 ```py
 # main.py file
 from mymodule import generate_full_name, sum_two_nums, person, gravity
-print(generate_full_name('Asabneh','Yetayeh'))
+print(generate_full_name('vardhan','vardhan'))
 print(sum_two_nums(1,9))
 mass = 100;
 weight = mass * gravity
@@ -90,7 +85,7 @@ During importing we can rename the name of the module.
 ```py
 # main.py file
 from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
-print(fullname('Asabneh','Yetayeh'))
+print(fullname('Harsha','vardhan'))
 print(total(1, 9))
 mass = 100;
 weight = mass * g
