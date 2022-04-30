@@ -1,15 +1,9 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 14 - Higher Order Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
+  <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">harsha vardhan</a><br>
+  <small></small>
   </sub>
 </div>
 </div>
@@ -203,7 +197,7 @@ def print_full_name(first_name, last_name, country):
     print("I am {} {}. I love to teach.".format(
         first_name, last_name, country))
 
-print_full_name("Asabeneh", "Yetayeh",'Finland')
+print_full_name("harsha", "Yetayeh",'Finland')
 ```
 
 ## Built-in Higher Order Functions
@@ -244,7 +238,7 @@ print(list(numbers_int))    # [1, 2, 3, 4, 5]
 **Example:3**
 
 ```py
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['harsha', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 
 def change_to_upper(name):
     return name.upper()
@@ -299,14 +293,14 @@ print(list(odd_numbers))       # [1, 3, 5]
 
 ```py
 # Filter long name
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['harsha', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 def is_name_long(name):
     if len(name) > 7:
         return True
     return False
 
 long_names = filter(is_name_long, names)
-print(list(long_names))         # ['Asabeneh']
+print(list(long_names))         # ['harsha']
 ```
 
 ### Python - Reduce Function
@@ -327,7 +321,7 @@ print(total)    # 15
 
 ```py
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+names = ['harsha', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
@@ -353,14 +347,14 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 1. Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
 1. Use reduce to sum all the numbers in the numbers list.
 1. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
-1. Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
+1. Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the [countries list](https://github.com/upadrastaharshavardhan/Roadmap-to-python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
 1. Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
 2. Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
 1. Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
 
 ### Exercises: Level 3
 
-1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
+1. Use the countries_data.py (https://github.com/harsha/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.
