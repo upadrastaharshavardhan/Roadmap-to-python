@@ -3,7 +3,7 @@
 
 
   <sub>Author:
-  <a href="hhttps://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+  <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
   <small> </small>
   </sub>
 </div>
