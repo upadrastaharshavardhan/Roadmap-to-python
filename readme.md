@@ -38,16 +38,16 @@
 
 <div align="center">
   <h1> 30 Days Of Python: Day 1 - Introduction</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <a class="header-badge" target="_blank" href="https://twitter.com/HarshaUpadrasta">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Second Edition: July, 2021</small>
+  <a href="https://www.linkedin.com/in/harsha-upadrasta-a33a461a2/" target="_blank">Harsha vardhan</a><br>
+  <small>Roadmap-to-python</small>
   </sub>
 </div>
 
@@ -91,7 +91,7 @@
 
 **Congratulations** for deciding to participate in a _30 days of Python_ programming challenge . In this challenge you will learn everything you need to be a python programmer and the whole concept of programming. In the end of the challenge you will get a _30DaysOfPython_ programming challenge certificate.
 
-If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.  
+
 
 ## Introduction
 
